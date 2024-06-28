@@ -11,7 +11,7 @@ class ProgramaExpresso:
         ]
 
     def finalizar_app(self):
-        os.system("clear")
+        os.system("cls")
       
         print("Finalizando o app\n")
 
@@ -19,7 +19,7 @@ class ProgramaExpresso:
         input("Digite uma tecla para voltar ao menu principal: ")
 
     def mostrar_subtitulo(self, texto):
-        os.system("clear")
+        os.system("cls")
         linha = '*'*(len(texto))
         print(texto)
     
